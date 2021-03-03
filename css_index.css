@@ -1,0 +1,230 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+/* header------------------------------------------------- */
+header {
+    margin: 0;
+    width: 100%;  
+}
+.menu{
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;   /* ชิดซ้ายขวา */
+    background: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0 0 10px #666; 
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    
+}
+.text-port  h3{
+    margin: 0;
+    padding :30px;
+}
+
+
+.menu ul.h-menu li{ 
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    border-bottom: 2px solid transparent #ffffff;
+    padding-bottom: 20px;
+    transition: 0.5s ;
+   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul.h-menu li a:hover{
+    
+    color: orange;
+    border-bottom: 2px solid transparent;
+    border-color:-webkit-linear-gradient(top, #fa4343, #ff8d2f);
+    padding-bottom: 20px;
+    padding: 0.5rem;
+    transition: 0.5s ;
+}
+/* animation text----------------------------- */
+.name-jetsada{
+    width: 98%;
+    height:550px;
+    padding: 15px;
+    background-image:url("https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_960_720.jpg");
+    background-size: cover;
+    background-position: center ;
+    position:relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text-jetsada{
+    font: 3rem;
+    color: black;
+    background: white;
+    padding: 0.5rem;
+}
+
+/* about me----------------------------------- */
+.me{
+    width:100%;
+    height: 450;  
+    text-align: center;
+} 
+.text-intro {
+    margin-top: 30px;
+    display:inline-flex;
+    
+}
+.left ul.text1 { 
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 50px;
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+.img1 img{
+    margin-left: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.right ul.text2 li{
+    text-align: left;
+    list-style-type: none;
+    margin-left:15px;
+    padding: 0;
+}
+.center ul.text3 li {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+
+/* skill---------------------------------------- */
+.skill{
+    margin: 0;
+    width: 98%;
+    height: 130px;
+    background: rgb(218, 216, 216);
+    box-shadow: 0 0 10px #666; 
+    text-align: center;
+    padding: 15px;
+    
+}
+
+
+.skill ul#text3 li{
+    list-style-type:none ;
+    display: inline-flex;
+    border-radius: 25px;
+    color: white;
+    background: rgb(23, 5, 104);
+    box-shadow: 0 0 10px #666; 
+    padding: 15px;
+
+}
+/* activity------------------------------------ */
+.all-activity{
+    text-align: center;
+    margin: 0;
+    
+}
+#photo-activity{
+    
+    padding: 15px;
+}
+#photo-activity ul li{
+    object-fit: cover;
+    list-style-type: none;
+}
+.activi1 ul li{
+    object-fit: cover;
+    display: inline-flex;
+    padding: 15px;
+}
+.activi2 ul li{
+    object-fit: cover;
+    display: inline-flex;
+    padding: 15px;
+   
+}
+
+
+/* contact-------------------------- */
+.contacts{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background: rgb(24, 30, 41);
+    color: #fff;
+    
+   
+}
+
+.con{
+    display: inline-flex;
+}
+.cons-left ul.text-con1 li{
+   
+    text-align: left;
+    list-style-type: none;   
+    padding: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+   
+}
+
+.cons-center ul.text-con2 li {
+    
+    text-align:left;
+    margin-right:250px;
+    margin-left: 250px;
+    color: #fff;
+    padding: 5px;
+    list-style-type: none;
+    
+}
+
+.cons-center a{
+  
+    color: #fff;
+   
+}
+
+   
+ul.text-con2 li a:hover{
+    color: orange;
+    border-bottom: 2px solid;
+    padding: 0.5rem;
+    transition: 1s ;
+}
+
+
+
+.cons-right ul.text-con3 li{
+    text-align: left;
+    color: #fff;
+    padding: 5px;
+    list-style-type: none;
+   
+}
+
+
