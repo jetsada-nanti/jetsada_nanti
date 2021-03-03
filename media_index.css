@@ -1,0 +1,30 @@
+@media screen and (max-width: 500px){
+    
+    .menu {
+        
+        height: auto;
+        display: inline-flex;
+        background: yellow;
+        text-align: left;
+    }
+    
+    .text-intro{
+        display: inline-block;
+        
+    }
+    
+    .con{
+        height: auto;
+        display:inline-block;
+        text-align: left;
+        background: rgb(59, 47, 47);
+        
+    }
+    .skill{
+      
+        height: auto;       
+        background: rgb(236, 213, 135);
+        
+    }
+   
+}
